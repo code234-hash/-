@@ -1,0 +1,104 @@
+{
+  "systemVersion": "3.0",
+  "updateTime": "2026-05-20",
+  "defaultBook": "renjiao",
+  "bookPriority": ["renjiao", "waiyan", "hujiao", "beishi", "yilin", "ji"],
+  "bookNameMap": {
+    "renjiao": "新人教版",
+    "waiyan": "外研版",
+    "hujiao": "沪教版",
+    "beishi": "北师大版",
+    "yilin": "译林版",
+    "ji": "冀教版"
+  },
+  "stageMode": "junior",
+  "stageText": {
+    "junior": "初中青春研学模式",
+    "senior": "高中人文思辨模式"
+  },
+  "currentScene": {
+    "sceneStyle": "campus_morning",
+    "mainTheme": "人与自我",
+    "unitTopic": "日常作息与学业规划",
+    "mainTitle": "晨光自习室·学业规划研学",
+    "worldText": "清晨步入洒满阳光的自习室，褪去浮躁，梳理每日学业节奏，平衡学习与课余生活，制定贴合自身的成长规划，在自律中收获成长。",
+    "level1": "整理个人晨间作息，夯实时间类基础英语表达",
+    "level2": "与同伴交流学习方法，探讨高效时间分配方案",
+    "level3": "结合自身学情，撰写专属高效学习规划短文",
+    "endText": "圆满完成本次学业规划主题研学，明晰日常成长节奏，向着目标稳步前行。"
+  },
+  "allSceneList": [
+    "campus_morning", "campus_playground", "home_dining", "sport_gym",
+    "art_studio", "study_room", "library", "growth_house",
+    "family_yard", "school_corridor", "china_festival", "west_festival",
+    "civil_street", "volunteer_station", "job_exp", "traffic_cross",
+    "wild_forest", "pet_yard", "four_season", "mountain_lake",
+    "sea_beach", "flower_garden", "green_park", "camp_out"
+  ],
+  "questionLib": {
+    "fill": [
+      {"t":"I ____(get) up at six every morning.","a":"get"},
+      {"t":"She ____(plan) her study plan every night.","a":"plans"},
+      {"t":"They ____(go) to school by bike every day.","a":"go"},
+      {"t":"He ____(finish) his homework at eight.","a":"finishes"}
+    ],
+    "radio": [
+      {"t":"We often ___ finish homework on time.","o":["can","do","does"],"a":"do"},
+      {"t":"___ you like making study plans?","o":["Do","Does","Are"],"a":"Do"}
+    ],
+    "judge": [
+      {"t":"I like make study plans. 句式是否正确","a":"错误"},
+      {"t":"She gets up early every day. 句式是否正确","a":"正确"}
+    ],
+    "short": [
+      {"t":"What do you usually do to study well?","a":"Make study plans"},
+      {"t":"When do you usually get up?","a":"At six o'clock"}
+    ],
+    "cloze": [
+      {"t":"They ___ discuss study methods together after class.","a":"often"}
+    ],
+    "read": [
+      {"t":"What is the best way to improve study efficiency?","a":"Make a clear plan"}
+    ],
+    "seven": [
+      {"t":"选择最贴合学习规划主题的句子","a":"A good plan is half done."}
+    ],
+    "listen": [
+      {"t":"When do you usually make your weekly study plan?","a":"Every Sunday evening"}
+    ],
+    "write": [
+      {"t":"Write about your daily study plan in 60-80 words.","a":"essay"}
+    ]
+  },
+  "groupDefaultConfig": {
+    "base": {
+      "fill": 2, "radio": 2, "judge": 1, "short": 1,
+      "cloze": 1, "read": 1, "seven": 0, "listen": 1, "write": 0,
+      "extraTask": "背诵本单元核心单词20个"
+    },
+    "mid": {
+      "fill": 3, "radio": 3, "judge": 2, "short": 2,
+      "cloze": 2, "read": 2, "seven": 1, "listen": 1, "write": 1,
+      "extraTask": "熟读本单元重点句型并仿写3句"
+    },
+    "high": {
+      "fill": 4, "radio": 4, "judge": 2, "short": 2,
+      "cloze": 2, "read": 3, "seven": 1, "listen": 2, "write": 1,
+      "extraTask": "积累本单元话题议论文素材3则"
+    }
+  },
+  "studentGroupList": [
+    {"name":"张三","group":"base","addFill":0,"addRadio":0,"ownExtra":""},
+    {"name":"李四","group":"mid","addFill":1,"addRadio":0,"ownExtra":"额外完成1篇阅读"},
+    {"name":"王五","group":"high","addFill":0,"addRadio":1,"ownExtra":"写一篇话题议论文"}
+  ],
+  "moduleList": [
+    "单元基础闯关", "进阶语境运用", "真题精练", "错题复盘专项", "口语情景演练"
+  ],
+  "gameRule": {
+    "initHp": 100,
+    "wrongDeductHp": 15,
+    "rightAddHp": 5,
+    "rightAddGold": 10
+  }
+}
